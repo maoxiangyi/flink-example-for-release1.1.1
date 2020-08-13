@@ -1,0 +1,5 @@
+# windows
+git add * &&git commit -m 'init' &&git push
+
+# linux
+cd flink_integration_hive &&  git pull && cd .. && sh flink_integration_hive/bin/start.sh

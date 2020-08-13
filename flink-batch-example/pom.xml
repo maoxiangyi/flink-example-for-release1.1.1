@@ -11,21 +11,28 @@
 
     <artifactId>flink-batch-example</artifactId>
 
+    <properties>
+        <flink.version>1.11.1</flink.version>
+        <scala.binary.version>2.11</scala.binary.version>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.apache.flink</groupId>
-            <artifactId>flink-clients_2.11</artifactId>
-            <version>1.11.1</version>
+            <artifactId>flink-java</artifactId>
+            <version>${flink.version}</version>
         </dependency>
+
         <dependency>
             <groupId>org.apache.flink</groupId>
-            <artifactId>flink-connector-hive_2.11</artifactId>
-            <version>1.11.1</version>
+            <artifactId>flink-scala_${scala.binary.version}</artifactId>
+            <version>${flink.version}</version>
         </dependency>
+
         <dependency>
-            <groupId>org.apache.hive</groupId>
-            <artifactId>hive-exec</artifactId>
-            <version>2.3.6</version>
+            <groupId>org.apache.flink</groupId>
+            <artifactId>flink-clients_${scala.binary.version}</artifactId>
+            <version>${flink.version}</version>
         </dependency>
     </dependencies>
 
