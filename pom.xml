@@ -5,12 +5,12 @@
 	<groupId>org.mxy.quickstart</groupId>
 	<artifactId>flink-example-for-release1.1.1</artifactId>
 	<version>1.11.1</version>
+	<name>flink-example-for-release1.1.1</name>
 	<modules>
 		<module>flink-streaming-example</module>
 		<module>flink-batch-example</module>
 	</modules>
 	<packaging>pom</packaging>
 
-	<name>Flink Quickstart Job</name>
 
 </project>
