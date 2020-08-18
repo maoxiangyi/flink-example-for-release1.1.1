@@ -11,5 +11,17 @@
 
     <artifactId>flink-streaming-example</artifactId>
 
-    
+
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.flink</groupId>
+            <artifactId>flink-streaming-java_2.11</artifactId>
+            <version>1.11.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.flink</groupId>
+            <artifactId>flink-connector-filesystem_2.11</artifactId>
+            <version>1.11.1</version>
+        </dependency>
+    </dependencies>
 </project>
